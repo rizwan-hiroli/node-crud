@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser= require('body-parser')
 const app = express();
 const MongoClient = require('mongodb').MongoClient
-const connectionString = 'mongodb+srv://rizwan:rizwan123@cluster0.0wpqp.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+const connectionString = 'mongodb+srv://r3@cluster0.0wpqp.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 
 app.set('view engine', 'ejs')
 app.use(express.static('public'))
